@@ -209,12 +209,14 @@ main .container{
         main .container{
                flex-direction: column; 
         }
-        main .container .main-img{
-                width: 100%;
-        }
+
+        main .container .main-img,
         main .container .main-text{
                 width: 100%;
                 text-align: center;
+        }
+        main .container .main-text h1{
+                font-size: 4rem;
         }
         main .container .main-text div{
                 justify-content: center;
