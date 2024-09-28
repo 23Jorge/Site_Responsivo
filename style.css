@@ -125,10 +125,13 @@ nav{
 }
 .logo a{
         font-family: "Shadows Into Light", cursive;
-        font-size: 22px;
+        font-size: 2.0em;
         font-weight: bold;
         font-style: normal;
         color: white;
+}
+.logo-img {
+        width: 50%;
 }
 .ul{
     display: flex;
