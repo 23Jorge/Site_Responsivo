@@ -206,4 +206,17 @@ main .container{
         .ul.ativo{
                 left: 0;
         }
+        main .container{
+               flex-direction: column; 
+        }
+        main .container .main-img{
+                width: 100%;
+        }
+        main .container .main-text{
+                width: 100%;
+                text-align: center;
+        }
+        main .container .main-text div{
+                justify-content: center;
+        }
 }
