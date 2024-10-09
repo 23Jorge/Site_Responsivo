@@ -220,6 +220,28 @@ main .container{
         font-size: 30px;
         font-weight: 550;
 }
+.diferencias .container{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px auto;
+}
+.diferencias .card{
+        width: 30%;
+        cursor: pointer;
+        padding: 30px;
+        border-radius: 15px;
+        transition: 0.2s;
+}
+.diferencias .card:hover{
+        box-shadow: 0px 10px 67px 8px #e6e6fa85;
+}
+.diferencias .card img{
+        width: 58px;
+}
+.diferencias .card .titulo{
+        margin: 13px;
+        font-weight: 600;
+}
 /*Responsivo*/
 @media(max-width: 960px) {
         .menu-icon{
